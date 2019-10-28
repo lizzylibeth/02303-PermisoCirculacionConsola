@@ -30,17 +30,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        boolean permisoOK;
+        boolean permisoOk;
 
         try {
 
             //Leer Dato
             System.out.print("Permiso de circulación ...: ");
-            permisoOK = SCN.nextBoolean();
+            permisoOk = SCN.nextBoolean();
 
             //Mensaje
-            System.out.printf("Permiso de circulación ...: %b%n", permisoOK = 1 != 2);
-            //La expresión da true, por eso se corresponde al valor asignado. dará true. se puede generar valores true o false sin necesariamente incluyéndolos. 
+            System.out.printf("Permiso de circulación ...: %b%n", permisoOk = 1 != 2);
+            //La expresión da true, por eso se corresponde al valor asignado. dará true. 
+            //se puede generar valores true o false sin necesariamente incluyéndolos. 
+            
         } catch (Exception e) {
 
             //Mensaje
